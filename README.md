@@ -1,24 +1,24 @@
-# Puns API
+# Prompts API
 
-The backend can be run locally or on the web [here](https://getpuns.herokuapp.com/api).
+Visit the website [here](https://stranded.herokuapp.com/api).
 
 ## Usage
-**Base URL:** http://getpuns.herokuapp.com/
+**Base URL:** http://stranded.herokuapp.com/
 
 **Output:** JSON
 
-### Get Random Pun
+### Get Random Prompt
 
-Get a random pun from the collection.
+Get a random prompt from the collection.
 
 #### `GET /api/random`
 
 Example Query:
 ```
-http://getpuns.herokuapp.com/api/random
+http://stranded.herokuapp.com/api/random
 ```
 
 Response:
 ```json
-{"Pun":"To write with a broken pencil is pointless."}
+{"If you could split your time evenly between two places, and two places only, which would these be?"}
 ```
